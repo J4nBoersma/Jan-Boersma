@@ -68,15 +68,15 @@ De KEGG pathway-analyse identificeerde verschillende significant verrijkte signa
 <table>
 <tr>
 <td align="center">
-<img src="Resultaten/Rplot%20-%20go.analyse.dotplot.png" width="400">
+<img src="Resultaten/Rplot - dotplot kegg.png" width="400">
 <br>
-GO Enrichment Analysis
+Verrijkte KEGG-pathways – Gene Ratio
 </td>
 
 <td align="center">
 <img src="Resultaten/Rplot%20-%20Barplot.kegg.png" width="400">
 <br>
-KEGG Pathway Analysis
+Verrijkte KEGG-pathways – aantal genen
 </td>
 </tr>
 </table>
