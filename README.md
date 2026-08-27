@@ -62,6 +62,15 @@ Na het uitvoeren van de differentiële expressie-analyse tussen de RA en control
 </small></small>
 
 ---
+### Go-Analyse
+De GO-verrijkingsanalyse liet zien dat de significant differentieel geëxprimeerde genen voornamelijk betrokken zijn bij immuungerelateerde processen [Figuur 4](https://github.com/J4nBoersma/Jan-Boersma/blob/main/Resultaten/Rplot%20-%20go.analyse.dotplot.png). De sterkst verrijkte GO-termen waren onder andere lymphocyte differentiation, adaptive immune response en leukocyte mediated immunity. Daarnaast werden processen gerelateerd aan T-cel- en B-celactivatie significant verrijkt gevonden. Deze resultaten wijzen op een verhoogde activiteit van de adaptieve immuunrespons in het synovium van RA-patiënten ten opzichte van controles.
+
+![Dotplot Go-analyse](Resultaten/Rplot%20-%20go.analyse.dotplot.png)
+
+
+**Figuur 4.** *GO-enrichmentanalyse van differentieel tot expressie komende genen in synovium (RA vs. controle). De dotplot toont significante verrijkte biologische processen (padj < 0,05). De x-as geeft de GeneRatio weer, de grootte van de punten het aantal genen per term en de kleur de significantie.*
+
+---
 ### Kegg-Analyse
 De KEGG pathway-analyse identificeerde verschillende significant verrijkte signaalroutes onder de differentieel geëxpresseerde genen [Figuur 3.](https://github.com/J4nBoersma/Transcriptomics-J2P4/blob/main/Resultaten/Rplot%20-%20dotplot%20kegg.png) De sterkst verrijkte pathway was de MAPK-signaling pathway, gevolgd door onder andere de Epstein–Barr virus infection-, NOD-like receptor signaling- en TNF signaling pathways. Daarnaast werden immuungerelateerde pathways zoals de NF-κB-, IL-17- en Th17 cell differentiation pathways significant verrijkt gevonden. Deze resultaten wijzen op een belangrijke betrokkenheid van ontstekings- en immuunresponsprocessen bij de pathogenese van reumatoïde artritis.
 
@@ -84,15 +93,6 @@ Verrijkte KEGG-pathways – aantal genen
 <small><small>
 **Figuur 3.** *KEGG-analyse van differentieel tot expressie gebrachte genen tussen RA-patiënten en een gezonde controle. Dotplot van de verrijkte KEGG-pathways, waarbij de grootte van de punten het aantal genen per pathway weergeeft en de kleur de gecorrigeerde p-waarde representeert (Links). Barplot van de meest verrijkte KEGG-pathways, weergegeven op basis van het aantal tot expressie gebrachte genen (Rechts).*
 </small></small>
-
----
-### Go-Analyse
-De GO-verrijkingsanalyse liet zien dat de significant differentieel geëxprimeerde genen voornamelijk betrokken zijn bij immuungerelateerde processen [Figuur 4](https://github.com/J4nBoersma/Jan-Boersma/blob/main/Resultaten/Rplot%20-%20go.analyse.dotplot.png). De sterkst verrijkte GO-termen waren onder andere lymphocyte differentiation, adaptive immune response en leukocyte mediated immunity. Daarnaast werden processen gerelateerd aan T-cel- en B-celactivatie significant verrijkt gevonden. Deze resultaten wijzen op een verhoogde activiteit van de adaptieve immuunrespons in het synovium van RA-patiënten ten opzichte van controles.
-
-![Dotplot Go-analyse](Resultaten/Rplot%20-%20go.analyse.dotplot.png)
-
-
-**Figuur 4.** *GO-enrichmentanalyse van differentieel tot expressie komende genen in synovium (RA vs. controle). De dotplot toont significante verrijkte biologische processen (padj < 0,05). De x-as geeft de GeneRatio weer, de grootte van de punten het aantal genen per term en de kleur de significantie.*
 
 ---
 ### Pathwayview-Visualisatie Analyse
