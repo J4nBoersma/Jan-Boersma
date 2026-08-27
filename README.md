@@ -1,6 +1,6 @@
 
 
-## Rheuma artritis - Transcriptomics - J2P4 Project 
+# Differentiële genexpressie bij patiënten met reumatoïde artritis: een transcriptomicsanalyse 
 
 ### Inhoud
 - `Assets` - overige documtenten 
@@ -25,6 +25,14 @@ Reumatoïde artritis (RA) is een chronische systemische auto-immuunziekte die wo
 Een belangrijk kenmerk van RA is de aanwezigheid van autoantistoffen zoals ACPA (anti-citrullinated protein antibodies), die vaak al jaren vóór het ontstaan van klinische symptomen aanwezig kunnen zijn. Vroege diagnose en behandeling zijn essentieel om blijvende gewrichtsschade te beperken. Hoewel therapieën zoals DMARD’s de ziekteactiviteit kunnen remmen, blijft RA ongeneeslijk en is er behoefte aan beter inzicht in de moleculaire mechanismen achter de ziekte [Smolen et al., 2016](https://github.com/J4nBoersma/Jan-Boersma/blob/main/Bronnen/Smolen%20et%20al.%2C%202016.pdf).
 Transcriptomics biedt hiervoor een krachtige methode om verschillen in genexpressie in ontstoken synovium te analyseren. Door middel van RNA-sequencing kunnen genen worden geïdentificeerd die differentieel tot expressie komen tussen RA-patiënten en controles. Vervolgens kan met Gene Ontology-analyse worden bepaald welke biologische processen en pathways betrokken zijn bij de ziekteontwikkeling.
 
+### Doelstelling
+Het hoofddoel van dit project is om met behulp van transcriptomics verschillen in genexpressie tussen patiënten met gevestigde reumatoïde artritis (RA) en personen zonder RA in kaart te brengen. Hiervoor worden RNA-sequencinggegevens van vier RA-patiënten en vier controles geanalyseerd.
+Om dit hoofddoel te bereiken worden de volgende deeldoelen opgesteld:
+1. Het identificeren van differentieel tot expressie gebrachte genen tussen de RA-groep en de controlegroep met behulp van een
+differentiële genexpressieanalyse in R en DESeq2.
+2. Het bepalen welke genen verhoogd of verlaagd tot expressie komen in het synovium van RA-patiënten ten opzichte van personen zonder RA.
+3. Het identificeren van biologische processen en pathways die geassocieerd zijn met RA door middel van Gene Ontology (GO)-analyse en pathwayanalyse van de differentieel tot expressie gebrachte genen.
+4. Het identificeren van betrokken biologische pathways met behulp van een KEGG-analyse.
 ---
 ## Methode
 <img width="1536" height="1024" alt="ChatGPT Image Jun 18, 2026 at 01_59_02 PM" src="https://github.com/user-attachments/assets/06ed6154-cc72-489e-8a4f-5b4f23e5d839" />
