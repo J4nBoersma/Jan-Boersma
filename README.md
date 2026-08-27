@@ -50,7 +50,7 @@ Voor visualisatie is een volcano plot gemaakt met EnhancedVolcano. Daarnaast zij
 ## Resultaten
 
 
-### Volcano plot
+### Volcano plot: 4.572 genen differentieel tot expressie gebracht tussen RA en controle
 Na het uitvoeren van de differentiële expressie-analyse tussen de RA en controlesamples op basis van de count matrix, zijn de resultaten uitgezet in een volcano plot. De volcano plot [Figuur 2.](https://github.com/J4nBoersma/Transcriptomics-J2P4/blob/main/Resultaten/Volcanoplot-WC3.png) toont meerdere significant differentieel geëxpresseerde genen tussen RA-patiënten en gezonde controles. Genen zoals *SRGN*, *BCL2A1* en *CXCR1* vertonen een verhoogde expressie in RA, terwijl *ANKRD30BL*, *MT-ND6* en *SLC9A3R2* juist een verlaagde expressie laten zien. Daarnaast lijkt het aantal significant neer-gereguleerde genen groter dan het aantal sterk op-gereguleerde genen. Deze resultaten wijzen op duidelijke veranderingen in genexpressie binnen het synoviale weefsel van RA-patiënten.
 
 
@@ -62,7 +62,7 @@ Na het uitvoeren van de differentiële expressie-analyse tussen de RA en control
 </small></small>
 
 ---
-### Go-Analyse
+### Go-Analyse: Immuunprocessen zijn sterk verrijkt
 De GO-verrijkingsanalyse liet zien dat de significant differentieel geëxprimeerde genen voornamelijk betrokken zijn bij immuungerelateerde processen [Figuur 4](https://github.com/J4nBoersma/Jan-Boersma/blob/main/Resultaten/Rplot%20-%20go.analyse.dotplot.png). De sterkst verrijkte GO-termen waren onder andere lymphocyte differentiation, adaptive immune response en leukocyte mediated immunity. Daarnaast werden processen gerelateerd aan T-cel- en B-celactivatie significant verrijkt gevonden. Deze resultaten wijzen op een verhoogde activiteit van de adaptieve immuunrespons in het synovium van RA-patiënten ten opzichte van controles.
 
 ![Dotplot Go-analyse](Resultaten/Rplot%20-%20go.analyse.dotplot.png)
@@ -71,7 +71,7 @@ De GO-verrijkingsanalyse liet zien dat de significant differentieel geëxprimeer
 **Figuur 4.** *GO-enrichmentanalyse van differentieel tot expressie komende genen in synovium (RA vs. controle). De dotplot toont significante verrijkte biologische processen (padj < 0,05). De x-as geeft de GeneRatio weer, de grootte van de punten het aantal genen per term en de kleur de significantie.*
 
 ---
-### Kegg-Analyse
+### Kegg-Analyse: Ontstekings- en immuunpathways zijn significant verrijkt
 De KEGG pathway-analyse identificeerde verschillende significant verrijkte signaalroutes onder de differentieel geëxpresseerde genen [Figuur 3.](https://github.com/J4nBoersma/Transcriptomics-J2P4/blob/main/Resultaten/Rplot%20-%20dotplot%20kegg.png) De sterkst verrijkte pathway was de MAPK-signaling pathway, gevolgd door onder andere de Epstein–Barr virus infection-, NOD-like receptor signaling- en TNF signaling pathways. Daarnaast werden immuungerelateerde pathways zoals de NF-κB-, IL-17- en Th17 cell differentiation pathways significant verrijkt gevonden. Deze resultaten wijzen op een belangrijke betrokkenheid van ontstekings- en immuunresponsprocessen bij de pathogenese van reumatoïde artritis.
 
 <table>
@@ -95,7 +95,7 @@ Verrijkte KEGG-pathways – aantal genen
 </small></small>
 
 ---
-### Pathwayview-Visualisatie Analyse
+### Pathwayview-Visualisatie Analyse: Verschillende RA-gerelateerde genen zijn differentieel tot expressie gebracht
 Om de differentiële genexpressie binnen de context van een bekende ziekteroute te visualiseren, werden de expressiewaarden geprojecteerd op de KEGG Rheumatoid Arthritis pathway (hsa05323) [Figuur 5.](https://github.com/J4nBoersma/Jan-Boersma/blob/main/Resultaten/hsa05323.pathview.png). De pathway-analyse liet zien dat meerdere genen betrokken bij ontstekings- en immuunprocessen differentieel tot expressie kwamen tussen RA-patiënten en controles. Met name componenten van cytokine-gemedieerde signaaltransductie, lymfocytactivatie en ontstekingsroutes vertoonden veranderingen in expressie. Zo werden onder andere CD28, CTLA4, IL1A, IL15, CCL2, CXCL1, IL1B en MMP13 verhoogd tot expressie gebracht. Deze genen spelen een belangrijke rol bij T-celactivatie, cytokinesignalering, recrutering van immuuncellen en gewrichtsdestructie. Daarentegen vertoonden genen zoals IFNG, VEGF, IL8, TLR2/4, AP1 en CTSL een lagere expressie. Deze bevindingen ondersteunen de resultaten van de GO- en KEGG-verrijkingsanalyses, waar eveneens een sterke betrokkenheid van immuun- en ontstekingsgerelateerde processen werd gevonden. De geobserveerde expressieveranderingen binnen de RA-pathway zijn consistent met de bekende pathogenese van reumatoïde artritis.
 
 
