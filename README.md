@@ -9,13 +9,17 @@
 
 - `Competenties` - Bevat de Data Stewardsship bestanden en bestanden over het gebruik van Github
 
+- `Packages` - Bevat de PDF-bestanden van de gebruikte R-packages
+
 - `Raw_data` - Bevat de ruwe data die gebruikt is voor de analyses
 
 - `Resultaten` - Bevat de output van de analyses. Zoals: tabellen, figuren, plots
 
+- `README.md` - Overzicht en uitleg van het project, inclusief doel, methode en resultaten
+
 - `Script` – Bevat het gebruikte script voor de analyses
 
-- `README.md` - Overzicht en uitleg van het project, inclusief doel, methode en resultaten
+
  
 
 
