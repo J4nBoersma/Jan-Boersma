@@ -124,7 +124,7 @@ Op basis van deze resultaten kan worden geconcludeerd dat de geïdentificeerde g
 - Smolen, J. S., Aletaha, D., McInnes, I. B., Division of Rheumatology, Department of Medicine 3, Medical University of Vienna, Vienna, Austria, 2nd Department of Medicine, Hietzing Hospital Vienna, Vienna, Austria, & Institute of Infection, Immunity and Inflammation, University of Glasgow, Glasgow, UK. (2016). Rheumatoid arthritis. In Seminar (Vol. 388, pp. 2023–2038). http://dx.doi.org/10.1016/S0140-6736(16)30173-8
 
 ### Packages
-- Blighe, K., Rana, S., & Lewis, M. (2022). EnhancedVolcano: Publication-ready volcano plots with enhanced colouring and labeling (Version 1.28.2) https://bioconductor.org/packages/EnhancedVolcano/.
+- Blighe, K., Rana, S., & Lewis, M. (2022). EnhancedVolcano: Publication-ready volcano plots with enhanced colouring and labeling (Version 1.28.2) [R package] https://bioconductor.org/packages/EnhancedVolcano/.
 - Liao, Y., Smyth, G. K., & Shi, W. (2019). The R package Rsubread is easier, faster, cheaper and better for alignment and quantification of RNA sequencing reads. Nucleic Acids Research, 47(8), e47. https://doi.org/10.1093/nar/gkz114
 - Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology, 15, 550. https://doi.org/10.1186/s13059-014-0550-8
 - Luo, W., & Brouwer, C. (2013). Pathview: An R/Bioconductor package for pathway-based data integration and visualization. Bioinformatics, 29(14), 1830–1831. https://doi.org/10.1093/bioinformatics/btt285
